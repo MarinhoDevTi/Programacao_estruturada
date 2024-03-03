@@ -18,7 +18,7 @@ int main () {
     res = num * 100;
     printf("\n");
 
-    printf("%d métros, equivalem a %d centímetros\n", num, res);
+    printf("%d metros, equivalem a %d centímetros\n", num, res);
     printf("\n");
     
 }

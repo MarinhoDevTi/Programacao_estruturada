@@ -4,5 +4,10 @@
 */
 
 int main () {
-    
+
+    printf("Hello World\n");
+    printf("Elon Musk\n");
+    printf("\n");
+    return 0;
+
 }
