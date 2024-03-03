@@ -14,4 +14,36 @@ Exemplo: O usuário digitou 7 e 5. Exibe na tela:
 
 int main () {
 
+    //declaração de variaveis
+    int num1 = 0;
+    int num2 = 0;
+    int sm = 0;
+    int sb = 0;
+    int mp = 0;
+
+    printf("Digite o Primeiro Número: ")    ;
+    scanf("%d", & num1);
+
+    printf("\n");
+
+    printf("Digite o Segundo número: ");
+    scanf("%d", & num2);
+
+    printf("\n");
+
+    sm = num1 + num2;
+    sb = num1 - num2;
+    mp = num1 * num2;
+
+    printf(" %d + %d = %d\n", num1, num2, sm);
+    printf("\n");
+
+    printf(" %d - %d = %d\n", num1, num2, sb);
+    printf("\n");
+
+    printf(" %d * %d = %d\n", num1, num2, mp);
+    printf("\n");
+
+
+
 }
