@@ -6,5 +6,19 @@ Exemplo:
 */
 
 int main () {
+
+    //declaração de variaveis
+    int num = 0;
+    int res = 0;
+
+    printf("Digite um Numero: ");
+    scanf("%d", & num);
+    printf("\n");
+
+    res = num * 100;
+    printf("\n");
+
+    printf("%d métros, equivalem a %d centímetros\n", num, res);
+    printf("\n");
     
 }
