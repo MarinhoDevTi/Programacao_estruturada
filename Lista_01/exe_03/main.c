@@ -7,4 +7,8 @@ O seu triplo
 
 int main () {
 
+    int num = 0;
+
+    printf ("Digite um numero: %d")
+
 }
