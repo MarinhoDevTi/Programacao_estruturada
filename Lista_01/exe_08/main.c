@@ -6,5 +6,14 @@ Imprime: 3, 4, 5, 6, 7;
 */
 
 int main () {
+
+     int num;
+
+    printf("Digite um número:  ");
+    scanf("%d", &num);
+
+    printf("%d, %d, %d, %d, %d\n", num - 2, num - 1, num, num + 1, num + 2);
+
+    return 0;
     
 }
