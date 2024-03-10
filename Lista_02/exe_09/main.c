@@ -18,7 +18,7 @@ if ( num >=100 ) && ( num <= 200 ) {
     
 }
 else {
-     printf ("Você digitou um número fora da faixa".");
+     printf ("Você digitou um número fora da faixa");
 }
 
 return 0;
