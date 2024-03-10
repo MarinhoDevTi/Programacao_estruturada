@@ -23,5 +23,7 @@ int main () {
     printf("%.2f Celsius equivalem a %.2f Farenheit !\n", C, F);
     printf("\n");
 
+retorno 0;
+
     
 }
