@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*
+
+09) Faça um código para imprimir uma data aleatória entre 
+01/01/2000 e 31/12/2024. Seu programa tem que considerar os 
+anos bissextos. Todo ano bissexto é divisível por 4. Deve ser 
+uma data válida (não pode gerar 31/09/2023, 30/02/2020, etc).
+*/
+
 // Função para verificar se um ano é bissexto
 int ehBissexto(int ano) {
     if ((ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0)) {

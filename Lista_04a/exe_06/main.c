@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*
+06) Faça um código que gere 10 números aleatórios entre 0 e 100. 
+Imprima em uma única linha, com os números separados por espaços.
+*/
+
 int main() {
     int i;
 

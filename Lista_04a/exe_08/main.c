@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
+
+/*
+08) Gerador de bilhetes da mega-sena. Gere 6 números aleatórios
+ entre 1 e 60, sem repetições.
+
+*/
+
 #define TAMANHO_BILHETE 6
 #define MINIMO_NUMERO 1
 #define MAXIMO_NUMERO 60

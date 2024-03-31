@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*
+07) Faça um código para gerar 3 números aleatórios 
+entre 100 e 999 e que sejam divisíveis por 5
+*/
+
 int main() {
     int i, numero, contador = 0;
 

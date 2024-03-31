@@ -2,6 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*
+
+10) Faça um programa que gere dois números inteiros 
+aleatórios entre 0 e 99 (inclusive). O usuário deve d
+igitar a soma desses números. O programa deve informar 
+se o resultado digitado pelo usuário está correto ou incorreto.
+
+*/
+
 int main() {
     int num1, num2, soma, resposta;
 
