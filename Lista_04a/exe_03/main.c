@@ -2,6 +2,16 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*
+
+03) Faça um jogo de adivinhação. Gere um número aleatório 
+entre 0 e 100. O jogador tem cinco chances de acertar o número. 
+A cada tentativa, o jogo informa ao jogador se o número que ele 
+tentou é menor ou maior do que o número que foi gerado. Quando 
+acertar, informe ao jogador que ele acertou e encerre o jogo. 
+
+*/
+
 int main() {
     int numero_secreto, tentativa, tentativas_restantes = 5;
     

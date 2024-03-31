@@ -2,6 +2,16 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*
+
+02) Faça um jogo de pedra-papel-tesoura, single player, 
+humano vs computador. O computador gera um número aleatório 
+entre 0 e 2 (0 para pedra, 1 para papel, 2 para tesoura). 
+O jogador escolhe uma das opções. Exiba todas as informações p
+ara verificar quem venceu
+
+*/
+
 int main() {
     int jogador, computador;
     

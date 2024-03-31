@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*
+01) Faça o jogo de par ou ímpar, porém single player (um jogador).
+ Humano vs computador. O computador gera um número aleatório 
+ entre 0 e 5 (inclusive), e o jogador escolhe um número entre 0 e 5 
+ (inclusive). Exiba todas as informações para verificar quem venceu.
+*/
+
 int main() {
     int jogador, computador;
     
