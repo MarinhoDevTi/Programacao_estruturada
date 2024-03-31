@@ -2,6 +2,25 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*
+04) Faça um jogo no estilo disputa de pênaltis. O gol é dividido 
+em nove partes. Computador é o goleiro. Jogador é o chutador. 
+O chutador escolhe uma posição para chutar (1 a 9) e o goleiro 
+escolhe uma posição para defender (1 a 9). Se a defesa do goleiro 
+for igual ao chute do jogador, defendeu!!! Se for diferente, gol!!! 
+Tente desenhar o gol para seu jogo vender mais na play store.
+
+==================================
+|	1	|	2	|	3	|
+|		|		|		|
+|	4	|	5	|	6	|
+|		|		|		|
+|	7	|	8	|	9	|
+==================================
+
+
+*/
+
 // Função para imprimir o gol com as posições
 void imprimirGol() {
     printf("===========================\n");
