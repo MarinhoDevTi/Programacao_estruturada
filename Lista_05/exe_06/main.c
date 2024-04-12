@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*
+06) Pegue o vetor do exercício 5, e considere que ele gerou um número binário. Faça a 
+conversão deste número binário para decimal. Ex.:
+*/
+
 // Função para converter um vetor de números binários em decimal
 int binarioParaDecimal(int vetor[], int tamanho) {
     int decimal = 0;
