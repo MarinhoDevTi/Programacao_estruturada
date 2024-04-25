@@ -8,20 +8,15 @@ int generate_operation(int *num1, int *num2, char *operator) {
     if (*num1 < *num2 && *operator == '/') { // Verifica se o primeiro termo é menor que o segundo
         *num1 += *num2; // Se for, troca os termos para garantir que o primeiro seja maior
     }
-    switch (rand() % 4) { // Gera um operador aleatório
-        case 0:
-            *operator = '+';
+    switch (*operator) { // Gera um operador aleatório
+        case '+':
+        case '-':
+        case '*':
             break;
-        case 1:
-            *operator = '-';
-            break;
-        case 2:
-            *operator = '*';
-            break;
-        case 3:
-            *operator = '/';
+        case '/':
             if (*num2 == 0) // Evita divisão por zero
                 *num2 = 1;
+            *num1 = *num1 / *num2 * *num2; // Garante divisão apenas de números inteiros
             break;
     }
     return *num1, *num2, *operator;
