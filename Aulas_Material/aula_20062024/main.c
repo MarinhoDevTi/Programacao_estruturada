@@ -24,13 +24,13 @@ int main(){
         }
 
         fprintf(arquivo, "P3\n");
-        fprintf(arquivo, "# Criado por Diogo");
+        fprintf(arquivo, "# Criado por Diogo\n");
         fprintf(arquivo, "%d %d\n", 100, 100);
         fprintf(arquivo, "%d\n", 255);
         for (i = 0; i < 100; i++){
             for(j = 0; j < 100; j++){
                 for( k = 0; k < 3; k++ ){
-                    fprintf(arquivo, "%d", matriz[i][j][k]);
+                    fprintf(arquivo, "%d ", matriz[i][j][k]);
                 }
             }
         }
