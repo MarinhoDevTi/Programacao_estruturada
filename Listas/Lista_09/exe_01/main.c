@@ -1,6 +1,15 @@
-// Para compilar codigos em C no VSCode
-// No terminal digite: gcc codigo.c -o codigo.exe
-// Para Rodar, digite no terminal: ./codigo.exe
+/*
+
+01) Crie um arquivo com o nome "imagem.pbm". O conteúdo desse arquivo deve ser exatamente como orientado. Primeira linha: P1. Segunda linha: #imagem.pbm. Terceira linha: 100 100. A partir da quarta linha: Gere uma matriz 100x100 com números inteiros aleatórios entre 0 e 1.
+P1
+#imagem.pbm
+100 100
+0 0 0 1 … 0
+1 0 0 1 … 1
+…
+Visualize o arquivo para conferir se deu certo.
+
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
